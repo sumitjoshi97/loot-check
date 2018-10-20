@@ -3,7 +3,9 @@
 exports[`Wallet renders component successfully 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Wallet />,
+  Symbol(enzyme.__unrendered__): <Wallet
+    balance={0}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,8 +19,11 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h3>
-        Wallet balance: 
+      "children": <h3
+        className="balance"
+      >
+        Wallet Balance: 
+        0
       </h3>,
     },
     "ref": null,
@@ -28,14 +33,15 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "Wallet balance: ",
-          undefined,
+          "Wallet Balance: ",
+          0,
         ],
+        "className": "balance",
       },
       "ref": null,
       "rendered": Array [
-        "Wallet balance: ",
-        undefined,
+        "Wallet Balance: ",
+        0,
       ],
       "type": "h3",
     },
@@ -47,8 +53,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h3>
-          Wallet balance: 
+        "children": <h3
+          className="balance"
+        >
+          Wallet Balance: 
+          0
         </h3>,
       },
       "ref": null,
@@ -58,14 +67,15 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Wallet balance: ",
-            undefined,
+            "Wallet Balance: ",
+            0,
           ],
+          "className": "balance",
         },
         "ref": null,
         "rendered": Array [
-          "Wallet balance: ",
-          undefined,
+          "Wallet Balance: ",
+          0,
         ],
         "type": "h3",
       },
