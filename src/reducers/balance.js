@@ -9,7 +9,13 @@ export default (state = initialState, action) => {
     case actionTypes.SET_BALANCE:
       return { ...state, balance: action.balance }
 
-    default:
+    case actionTypes.DEPOSIT:
+      return { ...state, balance: state.balance + action.deposit }
+
+    case actionTypes.WITHDRAW:
+      return { ...state, balance: state.balance - action.withdraw }
+    
+      default:
       return state
   }
 }
