@@ -15,7 +15,7 @@ fetchMock.get('https://api.coindesk.com/v1/bpi/currentprice.json', mockResponse)
 describe('bitcoin Actions', () => {
   it('creates an async action to fetch bitcoin value', () => {
     const expectedActions = [
-      { bitcoin: mockResponse.body, type: FETCH_BITCOIN }
+      { type: FETCH_BITCOIN, bitcoin: mockResponse.body }
     ]
 
     store.dispatch(fetchBitcoin()).then(() => {
