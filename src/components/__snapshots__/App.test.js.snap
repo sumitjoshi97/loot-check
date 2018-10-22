@@ -18,13 +18,23 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        "App",
+        "LootCheck",
+        <Connect(Loot) />,
         <Connect(Wallet) />,
       ],
     },
     "ref": null,
     "rendered": Array [
-      "App",
+      "LootCheck",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -44,13 +54,23 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "App",
+          "LootCheck",
+          <Connect(Loot) />,
           <Connect(Wallet) />,
         ],
       },
       "ref": null,
       "rendered": Array [
-        "App",
+        "LootCheck",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
           "instance": null,
           "key": undefined,

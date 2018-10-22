@@ -20,20 +20,36 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "children": Array [
+        "Bitcoin Balance: ",
+        "",
+      ],
+    },
     "ref": null,
-    "rendered": null,
-    "type": "div",
+    "rendered": Array [
+      "Bitcoin Balance: ",
+      "",
+    ],
+    "type": "h3",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": Array [
+          "Bitcoin Balance: ",
+          "",
+        ],
+      },
       "ref": null,
-      "rendered": null,
-      "type": "div",
+      "rendered": Array [
+        "Bitcoin Balance: ",
+        "",
+      ],
+      "type": "h3",
     },
   ],
   Symbol(enzyme.__options__): Object {
