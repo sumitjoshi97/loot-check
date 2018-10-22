@@ -1,7 +1,7 @@
 import {FETCH_BITCOIN} from '../actions/actionTypes'
 
 const initialState = {
-  bitcoin: null
+  bitcoin: {}
 }
 
 export default (state = initialState, action) => {

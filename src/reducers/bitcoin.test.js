@@ -5,7 +5,7 @@ describe('bitcoin Reducer', () => {
   const bitcoinData = { bpi: 'bitcoin price index' }
 
   const initialState = {
-    bitcoin: null
+    bitcoin: {}
   }
 
   it('fetches and sets the bitcoin data', () => {

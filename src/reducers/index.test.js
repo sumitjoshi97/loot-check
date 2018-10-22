@@ -7,7 +7,7 @@ describe('rootReducer', () => {
         balance: 0
       },
       bitcoin: {
-        bitcoin: null
+        bitcoin: {}
       }
     }
     expect(rootReducer({}, {})).toEqual(expectedState)
