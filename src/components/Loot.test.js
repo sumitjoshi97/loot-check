@@ -5,7 +5,7 @@ import { Loot } from './Loot'
 
 describe('Loot Component', () => {
   const mockFetchBitcoin = jest.fn()
-  const props = { balance: 10, bitcoins: {}}
+  let props = { balance: 10, bitcoin: {}, fetchBitcoin: () => {} }
   let loot = shallow(<Loot {...props} />)
 
   it('renders properly', () => {
@@ -14,7 +14,7 @@ describe('Loot Component', () => {
 
   describe('when mounted', () => {
     beforeEach(() => {
-      props.onFetchBitcoin = mockFetchBitcoin
+      props.fetchBitcoin = mockFetchBitcoin
       loot = mount(<Loot {...props} />)
     })
 
